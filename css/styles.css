@@ -8,73 +8,84 @@ body button, i, a {
     cursor: pointer;
 }
 
+h1 {
+    color: green;
+    text-decoration: underline;
+}
+
+h2 {
+    color: green;
+}
 .container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 70%;
     padding: 0 20px 20px 20px;
-    border: solid black 2px ;
-    gap: 10px;
+    border: solid green 2px ;
+    gap: 15px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+}
+
+nav a i:hover {
+    color: green;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
 }
 
 img {
-    width: 100%;
-    margin: 0%;
+    padding-left: 20%;
+    
 }
 
 nav {
     text-align: end;
 }
 
-.home {
-    color: red;
+nav i {
+    color: gray;
 }
 
-.services {
-    color: gray
-}
-
-.contact {
-    color: green
+.informacion {
+    text-align: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    width: 40%;
 }
 
 .noticias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
+    gap: 20px;
+    width: 50%;
+    border-radius: 8px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
-.textos-cursivas {
-    padding: 0px 0px 0px 10px;
+.noticias div {
+    width: 60%;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
-.textos-cursivas .p1 {
-    color: orange;
-    font-style: italic;
+.noticias div img {
+    width: 80%;
 }
-
-.textos-cursivas .p2 {
-    font-style: italic;
-}
-.textos-cursivas .p3 {
-    font-size: small;
-}
-
-.estilos-textos {
-    padding: 0px 0px 0px 10px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-}
-
-.estilos-textos .p2 {
-    background-color: yellow;
-    width: fit-content;
-}
-
-.estilos-textos .p3 {
-    text-decoration: underline;
-}
-.estilos-textos .p4 {
-    text-decoration: line-through;
+iframe {
+    width: 50%;
 }
 
 footer {
@@ -92,4 +103,56 @@ footer {
 .yt {
     color: red
 }
+
+.formulario {
+    padding: 40px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+
+}
+
+
+.container-contact img {
+    width: 20%;
+    margin: auto;
+  
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px
+}
+
+form input, button {
+    padding: 8px;
+    outline: none;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: green;
+    color: white
+}
+
+.container .iframes {
+    display: flex;
+    height: 300px;
+    gap: 15px;
+}
+
+.iframes iframe {
+    height: 100%;
+}
+
+
+
+
+
+
 
